@@ -1,0 +1,275 @@
+@font-face{
+	font-family: comicfont;
+	src: url(../fonts/Comic-Book-Bold-Italic.otf);
+}
+
+body,#nav{
+border:none !important;
+background: #00388B !important;	
+color:white;
+}
+
+#body{
+background-color: white;
+color: #40ae4b;	
+padding: 2%;	
+}
+
+.none{
+    list-style-type: none;
+}
+
+.tleft{
+    text-align: left;
+}
+
+.green{
+background-color: #98e2ad;
+}
+
+.float-right{
+    float: right;
+    margin-left: 10%;
+}
+
+.float-left{
+    float: left;
+    margin-right: 10%;
+}
+
+
+.bold{
+    font-weight: bolder;
+}
+
+.none .border-none{
+    border: white; !important
+    background: black;
+}
+
+.none div{
+    color: black; !important
+    background-color: red;
+}
+
+p{
+font-size: 8px;
+}
+
+#cart{
+color: white;
+background-color: #40ae4b;	
+position: relative;
+left: 4%;    
+}
+
+#wishlist{
+position: relative;
+left: 2%;     
+}
+
+ul.list-group li{
+    color: black;
+}
+
+input[type="radio"]{
+    margin-left: 5px;
+}
+
+label{
+    margin-right: 5%;
+}
+
+.form ,textarea,not(input[type="radio"]),not(input[type="submit"]){
+    width: 80%;
+    border-radius: 4%;
+    padding: 2%;
+     margin-bottom: 2%;
+}
+
+
+#name{
+   width: 450px; !important
+}
+textarea{
+    width: 47%;
+    border-radius: 4%;
+    padding: 2%;
+}
+
+#query{
+    color:black;
+}
+
+.light-blue{
+padding: 0;	
+background-color: #005BAC;
+}
+.lighter-blue{
+padding: 0;	
+background-color: #169DEF;
+}
+
+.navbar-nav{
+color: inherit;	
+}
+
+#submitQ{
+ color: #169DEF;
+}
+
+#nav ul li a{
+color: white;
+}
+
+.menu,#menu{
+    margin-top: 2%;
+}
+
+ul.sideNav li, ul#menu li,.inline,.menu li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1%;	
+}
+
+.red{
+    background: red;
+    padding: 200px;
+}
+
+input[type='radio'].green{
+    background: green;
+}
+
+.loyalty-logo{
+    width: 110px;
+    position: relative;
+    top: -5px;
+}
+
+.nav ,.navbar-nav{
+      border: none;
+  
+}
+
+.nav:hover ,.navbar-nav:hover{
+    color:;
+}
+
+.glyphicon{
+    color: white;
+    border: none;
+}
+
+ul.nav li a{
+    color: white;
+    border:none;
+}
+
+
+
+button .glyphicon{
+    color:  white;
+    border:none; !important
+}
+
+
+#submitQ{
+    background: #5cb85c;
+    color:  white;
+    border:none;
+}
+
+#submit span{
+    color:white;
+}
+
+#logo{
+    display: inline-block;	
+    background-position: -119px -73px;
+    width: 156px;
+    height: 105px;	
+    background-image: url(../media/csg-5406bbcb220441.png)	
+}
+
+.widgetSubHeading{
+    font-size: 12px;
+}
+
+.frameImg{
+ width: 60%;
+ height: 60%;   
+}
+
+h3{
+    color: white;
+}
+
+.link{
+    margin-top: 2%;
+    color: darkgray;
+}
+
+figcaption{
+    text-align: center;
+    background-color: #4F4F4F;
+    color: white;
+    border: none;
+}
+
+.form-group{
+margin: 4%;    
+}
+
+.right{
+    text-align: right;
+}
+
+#submenu{
+    color:lightblue; !important
+}
+
+#submenu *{
+   color: inherit;
+}
+.left{
+    text-align: left;
+}
+
+.nudge-search{
+    position: relative;
+    left: 25%;
+}
+
+#messages{
+}
+
+div.form div{
+    padding: 2%;
+    margin: auto;
+    text-align: left;
+    width: 100%;
+}
+
+div.form{
+    padding: 4%;
+}
+
+.form-control{
+    padding: 3%;
+    background-color: rgba (1,1,1,0);
+    border-bottom-color: white; !important
+    color: white; !important 
+}
+
+input.form-control:focus,textarea.form-control:focus{
+outline:0;
+outline: none; 
+box-shadow: none;    
+border-bottom-color: #FFF;    
+}
+
+input[type='text'].form-control,select{
+    color: #000;
+    font-weight: bold;
+}
